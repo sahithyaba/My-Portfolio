@@ -1,0 +1,22 @@
+.services{
+    margin-top: 10rem;
+    display: flex;
+}
+
+.awesome{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.awesome> :nth-child(1){
+    color: var(--black);
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.awesome> :nth-child(2){
+    color: var(--lightpurple);
+    font-weight: bold;
+    font-size: 3rem;
+}
